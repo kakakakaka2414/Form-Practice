@@ -20,7 +20,7 @@ input, select, button{
   width: 600px;
 }
 
-.content__title{
+.first__title{
   font-size: 18px;
   color: #000000;
 }
@@ -29,7 +29,7 @@ input, select, button{
   margin-top: 25px;
 }
 
-.label__text{
+.label__word{
   font-size: 14px;
   color: #464646;
 }
@@ -199,7 +199,7 @@ span:after{
   border: 1px solid #d9d9d9;
 }
 
-.other-text{
+.other-word{
   margin-top: 25px;
   font-size: 10px;
 }
