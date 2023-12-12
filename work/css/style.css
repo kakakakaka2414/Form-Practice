@@ -29,7 +29,7 @@ input, select, button{
   margin-top: 25px;
 }
 
-.label__word{
+.label__text{
   font-size: 14px;
   color: #464646;
 }
@@ -38,7 +38,7 @@ input, select, button{
   display: flex;
 }
 
-.personal__content, .account__content, .contact__content, .subscription__content, .submit__content{
+.private__content, .account__content, .residence__content, .subscription__content, .submit__content{
 margin-top: 50px;
 }
 
@@ -52,7 +52,7 @@ margin-top: 50px;
   text-align: center;
 }
 
-.form__wrap{
+.outside{
   padding: 50px;
   background: #ecfaff;
   margin-top: 60px;

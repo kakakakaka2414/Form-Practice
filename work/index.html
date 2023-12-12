@@ -14,25 +14,25 @@
   <section class="wrapper">
     <div class="inner">
       <h1 class="page__title">フォーム作成</h1>
-      <div class="form__wrap">
+      <div class="outside">
         <form action="">
           <h2 class="form__title">アカウント作成</h2>
-          <div class="personal__content">
+          <div class="private__content">
             <h3 class="first__title">個人情報</h3>
             <div class="label__section">
-              <label class="label__word" for="family__name">名字
+              <label class="label__text" for="family__name">名字
                 <span class="required">※</span>
               </label>
-              <input class="input__area" id="family__name" type="word" name="name" autocomplete="family-name" required>
+              <input class="input__area" id="family__name" type="text" name="name" autocomplete="family-name" required>
             </div>
             <div class="label__section">
-              <label class="label__word" for="given__name">名前
+              <label class="label__text" for="given__name">名前
                 <span class="required">※</span>
               </label>
-              <input class="input__area" id="given__name" type="word" name="name" autocomplete="given-name" required>
+              <input class="input__area" id="given__name" type="text" name="name" autocomplete="given-name" required>
             </div>
             <div class="label__section">
-              <label class="label__word">生年月日
+              <label class="label__text">生年月日
                 <span class="required">※</span>
               </label>
               <div class="select__area is__flex">
@@ -87,7 +87,7 @@
               </div>
             </div>
             <div class="label__section">
-              <p class="label__word">性別
+              <p class="label__text">性別
                 <span class="required">※</span>
               </p>
               <div class="gender__area">
@@ -106,7 +106,7 @@
               </div>
             </div>
             <div class="label__section">
-              <label class="label__word">職業</label>
+              <label class="label__text">職業</label>
               <div class="select__area">
                 <div class="select__unit">
                   <select class="input__area" name="work">
@@ -123,40 +123,40 @@
           <div class="account__content">
             <h3 class="second__title">アカウント情報</h3>
             <div class="label__section">
-              <label class="label__word" for="account__name">アカウント名
+              <label class="label__text" for="account__name">アカウント名
                 <span class="required">※</span>
               </label>
-              <input class="input__area" id="account__name" type="word" required>
+              <input class="input__area" id="account__name" type="text" required>
             </div>
             <div class="label__section">
-              <label class="label__word" for="email">メールアドレス
+              <label class="label__text" for="email">メールアドレス
                 <span class="required">※</span>
               </label>
               <input class="input__area" id="email" type="email" autocomplete="email" required>
             </div>
             <div class="label__section">
-              <label class="label__word" for="password">パスワード
+              <label class="label__text" for="password">パスワード
                 <span class="required">※</span>
               </label>
               <input class="input__area" id="password" type="password" required>
             </div>
             <div class="label__section">
-              <label class="label__word" for="duplication__password">確認用パスワード
+              <label class="label__text" for="duplication__password">確認用パスワード
                 <span class="required">※</span>
               </label>
               <input class="input__area" id="duplication__password" type="password" required>
             </div>
           </div>
-          <div class="contact__content">
+          <div class="residence__content">
             <h3 class="third__title">連絡先</h3>
             <div class="label__section">
-              <label class="label__word" for="address">住所
+              <label class="label__text" for="address">住所
                 <span class="required">※</span>
               </label>
-              <input class="input__area" id="address" type="word" required>
+              <input class="input__area" id="address" type="text" required>
             </div>
             <div class="label__section">
-              <label class="label__word" for="email">電話番号
+              <label class="label__text" for="email">電話番号
                 <span class="required">※</span>
               </label>
               <input class="input__area" id="tel" type="tel" autocomplete="tel" required>
